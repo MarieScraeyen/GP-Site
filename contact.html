@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="site">
+        <header>
+            <div class="headerTitle">
+                <img src="img/climbing2.png" alt="klimmen" class = "imageLogo">
+                <h1>Klimmen in Leuven</h1>
+            </div>
+            <nav class = "headerNav">  
+                <ul>
+                    <li><a href="index.html">Home</a></li>    
+                </ul>   
+                <ul>
+                    <li><a href="page1.html">Klimmen</a></li>
+                    <li><a href="page2.html">Locaties</a></li>
+                </ul>
+                <ul>
+                    <li class="contact"><a href="contact.html">Contact</a></li>
+                </ul>                
+            </nav>
+        </header>
+        <main>
+            <h1 class = "mainTitle" >Contact</h1>
+            <div class="contactcontainer">
+                <form action>
+                  <label for="fname">Voornaam</label>
+                  <input type="text" id="fname" name="firstname">
+                  <label for="lname">Achternaam</label>
+                  <input type="text" id="lname" name="lastname">
+                  <label for="email">E-mailadres</label>
+                  <input type="text" id="email" name="lastname">
+                  <label for="subject">Onderwerp</label>
+                  <select id="subject" name="subject">
+                    <option value="technicalSupport">Technische steun</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="appointment">Afspraak</option>
+                    <option value="other">Andere</option>
+                  </select>
+                  <label for="message">Boodschap</label>
+                  <textarea id="message" name="message" style="height:200px"></textarea>
+                  <input type="Submit" value="Indienen">
+                </form>
+              </div>
+        </main>
+        <footer>
+            <nav>
+                <img src="img/climbing2.png" alt="klimmen" class="imageLogo">
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="https://r0757266.webontwerp.ucll.be">Over ons</a></li>
+                        <li><a href="https://r0757266.webontwerp.ucll.be/sitespec.html">Onze visie</a></li>
+                    </ul>
+                </div>
+                <div class="einde">
+                    <ul>
+                        <li><a href="contact.html">Naar boven gaan</a></li>
+                        <li><a href='contact.html'>Contacteer ons</a></li>
+                    </ul>
+                </div>
+            </nav>            
+            <div class="footerName">
+                <p>Marie Scraeyen - 2020</p>
+            </div>     
+        </footer>
+    </div>
+</body>
+</html>
